@@ -1,0 +1,28 @@
+{
+  "name": "wpxiotdatasorter",
+  "version": "1.0.0",
+  "description": "WEDO Proxima City: Helper to sort IoT event data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oraclespainpresales/wpxIoTDataSorter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oraclespainpresales/wpxIoTDataSorter/issues"
+  },
+  "homepage": "https://github.com/oraclespainpresales/wpxIoTDataSorter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "npmlog-ts": "0.0.1",
+    "restify-clients": "^2.6.7"
+  }
+}
