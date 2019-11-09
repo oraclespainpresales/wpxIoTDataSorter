@@ -84,6 +84,9 @@ restapp.get(restURI, (req,res) => {
   client.get(URI, (err, req_, res_, obj) => {
     var j = JSON.parse(res_.body);
     var items = j.items;
+    _.forEach(j, e => {
+      e.eventTimeAsString = _.trimEnd(_.split(e.eventTimeAsString, 'T')[1],'Z');
+    });
     res.status(200).json(_.sortBy(items, "eventTime"));
   });
 });
