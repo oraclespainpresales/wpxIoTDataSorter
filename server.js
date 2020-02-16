@@ -57,7 +57,7 @@ restapp.use(bodyParser.urlencoded({ extended: true }));
 restapp.use(bodyParser.json());
 restapp.use(cors());
 
-const IOTHOST = 'ccasares-dev.frastg.iot.ocs.oraclecloud.com'
+const IOTHOST = 'ccasares3-prod.frapoc.iot.ocs.oraclecloud.com'
     , IOTUSERNAME = 'wedo'
     , IOTPASSWORD = 'Welcome2019#'
 
